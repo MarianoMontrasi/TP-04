@@ -52,3 +52,14 @@ console.log(meses [10]);
 /*3.b*/
 meses.sort();
 console.log(meses);
+
+/*3.c*/
+var meses = ['Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre'];
+meses.unshift('Inicio de Año');
+meses.push('Fin de Año');
+console.log(meses);
+
+/*3.d*/
+meses.shift();
+meses.pop();
+console.log(meses);
