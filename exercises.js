@@ -21,6 +21,10 @@ console.log(nombreCompleto.toUpperCase());
 
 /*2.b*/
 var curso = 'Curso JavaScript'
-console.log(curso.substring(0,5));
+var curso1 = curso.substring(0,5)
+console.log(curso1);
 
 /*2.c*/
+var carrera = 'Ingenieria Mecánica'
+var carrera1 = carrera.substring(17,20);
+console.log(carrera1);
