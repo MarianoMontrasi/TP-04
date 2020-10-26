@@ -16,15 +16,20 @@ var cantLetras = nombre.length + apellido.length;
 console.log (cantLetras);
 
 /*2.a*/
-var nombrecompleto = 'MarianoMontrasi'
+var nombrecompleto = 'MarianoMontrasi';
 console.log(nombreCompleto.toUpperCase());
 
 /*2.b*/
-var curso = 'Curso JavaScript'
-var curso1 = curso.substring(0,5)
+var curso = 'Curso JavaScript';
+var curso1 = curso.substring(0,5);
 console.log(curso1);
 
 /*2.c*/
-var carrera = 'Ingenieria Mecánica'
+var carrera = 'Ingenieria Mecánica';
 var carrera1 = carrera.substring(17,20);
 console.log(carrera1);
+
+/*2.d*/
+var profesion = 'electrICIsta';
+var profesionModificado = profesion.substring(0,1).toUpperCase() + profesion.substring(2,12).toLowerCase();
+console.log(profesionModificado);
