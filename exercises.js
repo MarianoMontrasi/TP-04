@@ -18,3 +18,9 @@ console.log (cantLetras);
 /*2.a*/
 var nombrecompleto = 'MarianoMontrasi'
 console.log(nombreCompleto.toUpperCase());
+
+/*2.b*/
+var curso = 'Curso JavaScript'
+console.log(curso.substring(0,5));
+
+/*2.c*/
