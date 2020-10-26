@@ -48,3 +48,7 @@ console.log(carreraModificada);
 var meses = ['Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre'];
 console.log(meses [4]);
 console.log(meses [10]);
+
+/*3.b*/
+meses.sort();
+console.log(meses);
