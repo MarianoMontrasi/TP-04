@@ -38,3 +38,8 @@ console.log(profesionModificado);
 var equipos = 'River Plate';
 var espacio = equipos.indexOf(' ',0);
 console.log(espacio);
+
+/*2.f*/
+var miCarrera = 'ingenieria mecanica'
+var carreraModificada = miCarrera.substring(0,miCarrera.indexOf('i',0) + 1).toUpperCase() + miCarrera.substring(1,11) + miCarrera.substring(11,miCarrera.indexOf('m',0) + 1).toUpperCase() + miCarrera.substring(12,19);
+console.log(carreraModificada);
