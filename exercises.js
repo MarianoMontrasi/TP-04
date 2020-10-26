@@ -43,3 +43,8 @@ console.log(espacio);
 var miCarrera = 'ingenieria mecanica'
 var carreraModificada = miCarrera.substring(0,miCarrera.indexOf('i',0) + 1).toUpperCase() + miCarrera.substring(1,11) + miCarrera.substring(11,miCarrera.indexOf('m',0) + 1).toUpperCase() + miCarrera.substring(12,19);
 console.log(carreraModificada);
+
+/*3.a*/
+var meses = ['Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre'];
+console.log(meses [4]);
+console.log(meses [10]);
