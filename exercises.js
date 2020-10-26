@@ -14,3 +14,7 @@ console.log(nombreCompleto);
 /*1.c*-----Uso las dos vairables string anteriores*/
 var cantLetras = nombre.length + apellido.length;
 console.log (cantLetras);
+
+/*2.a*/
+var nombrecompleto = 'MarianoMontrasi'
+console.log(nombreCompleto.toUpperCase());
