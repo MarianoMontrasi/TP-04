@@ -33,3 +33,8 @@ console.log(carrera1);
 var profesion = 'electrICIsta';
 var profesionModificado = profesion.substring(0,1).toUpperCase() + profesion.substring(2,12).toLowerCase();
 console.log(profesionModificado);
+
+/*2.e*/
+var equipos = 'River Plate';
+var espacio = equipos.indexOf(' ',0);
+console.log(espacio);
