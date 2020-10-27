@@ -67,3 +67,7 @@ console.log(meses);
 /*3.e*/
 meses.reverse();
 console.log(meses);
+
+/*3.f*/
+console.log(meses.join('-'));
+
