@@ -101,4 +101,10 @@ if (age<2) {
                 console.log('Adulto Mayor');
             }else {
                 console.log('Anciano');
-}        
+}     
+
+/*5.a*/
+var nombres = ['Mariano','Lautaro','Bruno','Julian','Federico'];
+for (var i = 0; i<5; i++) {
+    alert(nombres[i]);
+}
