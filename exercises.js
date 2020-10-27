@@ -116,3 +116,17 @@ for (var i = 0; i<5; i++) {
 }
 
 /*5.c*/
+var sentence = '';
+for (var i =0; i<5; i++) {
+    sentence = sentence + nombres[i];
+}
+alert(sentence);
+
+/*5.d*/
+var vacio = [];
+for (var i = 0; i<10; i++) {
+    vacio[i] = i;
+}
+console.log(vacio);
+
+/*6.a*/
