@@ -150,4 +150,13 @@ function sumasuma(num1,num2) {
 var result = sumasuma('a',27);
 
 /*6.c*/
+function validateInteger(num3) {
+    if (num3 % 1 == 0) {
+        return true
+    } else {
+        return false;
+    }
+}
 
+var validacion = validateInteger(8.5);
+console.log(validacion);
