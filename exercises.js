@@ -160,3 +160,29 @@ function validateInteger(num3) {
 
 var validacion = validateInteger(8.5);
 console.log(validacion);
+
+/*6.d*/
+function suma3(num1,num2) {
+    var x1 = isNaN(num1);
+    var x2 = isNaN(num2);
+    if (x1 == false && x2 == false) {
+        y1 = num1 % 1;
+        y2 = num2 % 1;
+        if (y1 == 0 && y2 ==0) {
+            return num1+num2
+        }else if(y1 != 0){
+            alert(num1 + ' is not a whole number');
+            console.log(Math.round(num1));
+        }else {
+            alert(num2 + ' is not a whole number');
+            console.log(Math.round(num2));
+        } 
+    }else {
+        alert('Error-One of both parameters, is not a number')
+        return NaN
+        }
+    }
+
+    var enteroValidacion = suma3(15.2,'a');
+
+/*6.e*/
