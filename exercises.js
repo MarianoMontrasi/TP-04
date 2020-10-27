@@ -77,3 +77,10 @@ var algunosMeses = meses.slice(4,11);
 console.log(algunosMeses);
 
 /*4.a*/
+var numeroAleatorio = Math.random(0,1);
+console.log(numeroAleatorio);
+if (numeroAleatorio>=0.5) {
+                        console.log('Greater than 0,5');
+                            } else {
+                                    console.log('Lower than 0,5');
+                                    }
