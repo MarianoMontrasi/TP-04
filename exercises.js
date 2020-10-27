@@ -130,3 +130,9 @@ for (var i = 0; i<10; i++) {
 console.log(vacio);
 
 /*6.a*/
+function suma(num1,num2) {
+    return num1+num2;
+}
+var resultado = suma(8,26);
+console.log(resultado);
+
