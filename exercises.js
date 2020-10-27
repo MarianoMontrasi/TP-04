@@ -104,7 +104,15 @@ if (age<2) {
 }     
 
 /*5.a*/
-var nombres = ['Mariano','Lautaro','Bruno','Julian','Federico'];
+var nombres = ['mariano','lautaro','bruno','julian','federico'];
 for (var i = 0; i<5; i++) {
     alert(nombres[i]);
 }
+
+/*5.b*/
+for (var i = 0; i<5; i++) {
+    var nombresMayuscula = nombres[i].substring(0,1).toUpperCase() + nombres[i].substring(1,);
+    alert(nombresMayuscula);
+}
+
+/*5.c*/
