@@ -186,3 +186,30 @@ function suma3(num1,num2) {
     var enteroValidacion = suma3(15.2,'a');
 
 /*6.e*/
+function whole(numero1,numero2) {
+        y1 = numero1 % 1;
+        y2 = numero2 % 1;
+        if (y1 == 0 && y2 ==0) {
+            return numero1+numero2;
+        }else if(y1 != 0){
+            alert(numero1 + ' is not a whole number');
+            console.log(Math.round(numero1));
+        }else {
+            alert(numero2 + ' is not a whole number');
+            console.log(Math.round(numero2));
+        } 
+}
+function suma4(num1,num2) {
+    var x1 = isNaN(num1);
+    var x2 = isNaN(num2);
+    if (x1 == false && x2 == false) {
+       resultado = whole(num1,num2);
+       return resultado;
+    }else {
+        alert('Error-One of both parameters, is not a number')
+        return NaN
+        }
+    }
+
+    var validation = suma4(5.5,'a');
+    console.log(validation);
