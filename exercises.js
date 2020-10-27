@@ -71,3 +71,9 @@ console.log(meses);
 /*3.f*/
 console.log(meses.join('-'));
 
+/*3.g*/
+meses.reverse();
+var algunosMeses = meses.slice(4,11);
+console.log(algunosMeses);
+
+/*4.a*/
