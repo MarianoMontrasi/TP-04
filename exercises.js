@@ -136,3 +136,18 @@ function suma(num1,num2) {
 var resultado = suma(8,26);
 console.log(resultado);
 
+/*6.b*/
+function sumasuma(num1,num2) {
+    var x1 = isNaN(num1);
+    var x2 = isNaN(num2);
+    if (x1 == false && x2 == false) {
+        return num1+num2;
+    }else {
+        alert('Error-One of both parameters, is not a number')
+        return NaN
+        }
+}
+var result = sumasuma('a',27);
+
+/*6.c*/
+
