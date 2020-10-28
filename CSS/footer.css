@@ -1,0 +1,20 @@
+div#footer {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #442a04;
+    position: relative;
+    left: 0px;
+    top: 2800px;
+    margin: 10px 0px 0px;
+    padding: 0px;
+    width: 100%;
+}
+.block {
+    text-align: center;
+}
+@media screen and (min-width: 800px) {
+    div#footer {
+        position: relative;
+        top: 2000px;
+        }
